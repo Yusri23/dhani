@@ -25,7 +25,7 @@ class CController extends CI_Controller {
 						'kolom_isi' => $this->input->post('kolom_isi')
 					);
 		
-		$this->C4Model->store($data);
+		$this->CModel->store($data);
 		redirect('CController/index','refresh');
 	}
 
